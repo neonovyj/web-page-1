@@ -1,0 +1,79 @@
+.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container{
+    background-color: pink;
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+p.header{
+    color: aquamarine;
+}
+.header-info{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.menu{
+    display: flex
+}
+
+.menu ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    margin-right: 50px /* задаем расстояние между пунктами меню */
+}
+
+.header-info{/* выравниваем все в строчку */
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+    margin:0 auto;
+}
+.tel{
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: auto;/* телефон вправо */
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.menu li a:after{
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: white; /*цвет фона элемента*/
+    transition: width 0.3s ease-in-out;
+}
+
+.menu li a:hover:after,
+.menu li a:focus:after {
+    width: 100%;
+}
+
+.menu li{
+    margin-right: 50px /* задаем расстояние между пунктами меню */
+
+}

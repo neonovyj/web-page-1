@@ -1,0 +1,31 @@
+.home{
+    background: url(../images/stock.jpg) no-repeat center top / cover;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    margin: 250px 0 0;
+}
+h2{
+    font-size: 17px;
+    margin: 0 0 45px;
+}
+button{
+    width: 215px;
+    height: 62px;
+    font-size: 20px;
+    background-color: #191919; /*2E3B47  191919 */
+    border: 0;
+    display: block;
+    border: 2px solid #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transitin: 0.25s;
+    cursor: pointer;
+}
+button:hover{
+    background: #2ecc71;
+}
+}

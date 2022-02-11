@@ -1,0 +1,58 @@
+.header{
+    /*background: url(../images/stock.jpg) no-repeat center top / cover;*/
+    background:#F7F7F7;
+    color:#2E3B47;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.menu ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    padding-top: 56px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+}
+
+.menu li{
+    margin-right: 56px; /* задаем расстояние между пунктами меню */
+}
+
+.menu li:last-child{
+    margin-right: 0px;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 19.20px;
+}
+
+.menu li a:after{
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: white; /*цвет фона элемента*/
+    transition: width 0.3s ease-in-out;
+}
+
+.menu li a:hover:after,
+.menu li a:focus:after {
+    width: 100%;
+}

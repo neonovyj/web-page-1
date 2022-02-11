@@ -1,7 +1,10 @@
 .header{
-    background:#F7F7F7;
-    color:#2E3B47;
-    padding-bottom: 8px;
+    /*background: url(../images/stock.jpg) no-repeat center top / cover;*/
+    background: url(../images/stock.jpg) no-repeat center top;
+    min-height:100%;
+    background-size:cover;
+    /*background:#F7F7F7;*/
+    /*color:#2E3B47;*/
 }
 
 .header-info{
@@ -20,7 +23,7 @@
 .header-menu{
     display: flex;
     align-items: center;
-    padding-top: 32px;
+    padding-top: 56px;
 }
 
 .menu{
@@ -48,11 +51,44 @@
     content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
     height: 3px; /*задаём высоту линии*/
     width: 0%; /*задаём начальную ширину элемента (линии)*/
-    background-color: #2E3B47; /*цвет фона элемента*/
+    background-color: white; /*цвет фона элемента*/
     transition: width 0.3s ease-in-out;
 }
 
 .menu li a:hover:after,
 .menu li a:focus:after {
     width: 100%;
+}
+
+
+
+h1{
+    font-size: 57.33px;
+    padding-top: 200px;
+}
+
+h2{
+    font-size: 13.33px;
+    margin: 0 0 32px;
+}
+button{
+    width: 215px;
+    height: 62px;
+    font-size: 19.20px;
+    background-color: #191919; /*2E3B47  191919 */
+    border: 0;
+    display: block;
+    border: 2px solid #2ecc71;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transitin: 0.25s;
+    cursor: pointer;
+    margin-top:32px;
+}
+button:hover{
+    background: #2ecc71;
+}
+.home-content{
+    padding-bottom: 200px;
 }

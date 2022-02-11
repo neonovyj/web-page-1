@@ -1,20 +1,24 @@
 .home{
-    background: url(../images/stock.jpg) no-repeat center top / cover;
+    min-height: 704px;
+    padding-top: 320px;
+    /*padding-bottom: 208px;*/
+    position: relative;
 }
 
 h1{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
-    margin: 250px 0 0;
+    font-size: 57.33px;
+    color: #F7F7F7;
 }
+
 h2{
-    font-size: 17px;
-    margin: 0 0 45px;
+    color: #F7F7F7;
+    font-size: 13.33px;
+    margin: 0 0 32px;
 }
 button{
     width: 215px;
     height: 62px;
-    font-size: 20px;
+    font-size: 19.20px;
     background-color: #191919; /*2E3B47  191919 */
     border: 0;
     display: block;
@@ -24,8 +28,25 @@ button{
     border-radius: 24px;
     transitin: 0.25s;
     cursor: pointer;
+    margin-top:32px;
 }
 button:hover{
     background: #2ecc71;
 }
+.home-content{
+    max-width: 488px;
+}
+.home-bd-img{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2E3B47;
+}
+.home-bd-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

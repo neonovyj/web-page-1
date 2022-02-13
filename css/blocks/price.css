@@ -1,0 +1,37 @@
+.price-list1{
+    background-color: #2E3B47;
+    padding-bottom: 60px;
+}
+.price{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+}
+
+hr.price{
+    margin-bottom: 56px;
+}
+
+hr.price-list{
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.16);
+    opacity: 70%;
+
+}
+
+
+.one-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.cost{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

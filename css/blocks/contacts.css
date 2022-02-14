@@ -1,0 +1,19 @@
+.content{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-contacts{
+    padding: 0 128px 60px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-content{
+    margin-bottom: 16px;
+}
+p.text-content:last-child{
+    margin-bottom: 0px;
+}

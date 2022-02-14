@@ -1,6 +1,6 @@
 .price-list1{
     background-color: #2E3B47;
-    padding-bottom: 60px;
+    padding-bottom: 56px;
 }
 .price{
     display: grid;
@@ -34,4 +34,6 @@ hr.price-list{
     align-items: center;
 }
 
-
+.name{
+    opacity: 75%;
+}

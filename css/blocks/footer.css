@@ -1,5 +1,5 @@
 .footer-content{
-    padding: 32px 0 32px 0;
+    padding: 24px 0 24px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,4 +7,8 @@
 }
 p.footer{
     font-size: 13.33px;
+}
+.footer{
+    background:#F7F7F7;
+    color: #33495E;
 }

@@ -1,0 +1,10 @@
+.footer-content{
+    padding: 32px 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p.footer{
+    font-size: 13.33px;
+}

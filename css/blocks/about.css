@@ -1,8 +1,15 @@
 .about{
     background-color: #2E3B47;
+    padding-bottom: 60px;
 }
 .about-content{
     padding-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-about{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
 }

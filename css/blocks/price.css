@@ -10,7 +10,7 @@
 }
 
 hr.price{
-    margin-bottom: 56px;
+    margin-bottom: 60px;
 }
 
 hr.price-list{
@@ -27,7 +27,7 @@ hr.price-list{
 }
 
 .cost{
-    padding: 8px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
